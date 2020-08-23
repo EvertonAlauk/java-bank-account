@@ -37,4 +37,11 @@ public class BankAccount {
 		this.account = account;
 	}
 
+	@Override
+	public String toString() {
+		return "BankAccount [amount=" + amount + ", owner=" + owner + ", agency=" + agency + ", account=" + account + "]";
+	}
+	
+	
+
 }
